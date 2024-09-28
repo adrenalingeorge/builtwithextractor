@@ -7,7 +7,7 @@ class DataRepository:
     def __init__(self):
         db_name = os.environ.get('MONGO_DB_NAME')
         collection_name = os.environ.get('MONGO_COLLECTION_NAME')
-        self.client = MongoClient('mongodb://localhost:27017/')
+        self.client = MongoClient('MONGO_CLIENT_URI')
         self.db = self.client[db_name]
         self.collection = self.db[collection_name]
 
