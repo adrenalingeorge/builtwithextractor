@@ -1,17 +1,15 @@
 import requests
 import json
 import os
-from datetime import datetime
-from Include.dataRepository import DataRepository
 import dotenv
 
 dotenv.load_dotenv()
 
 class BuiltWithAPI:
     def __init__(self):
-        self.data_repository = DataRepository('builtwith_db', 'responses')
+        pass
 
-    def fetch_data_from_api(self, url):
+    def fetch_data_from_api(url):
         bw_url = "https://api.builtwith.com/v21/api.json"
         LOOKUP = f"LOOKUP={url}"
         KEY = f"KEY={os.environ.get('BUILTWITH_API_KEY')}"
@@ -38,10 +36,4 @@ class BuiltWithAPI:
         else:
             response.raise_for_status()
 
-    def get_data(self, url):
-        data = self.data_repository.get_data(url)
-        if data is None or self.data_repository.is_data_old(data):
-            data = self.fetch_data_from_api(url)
-            self.data_repository.save_data(data)
-        return data
 
