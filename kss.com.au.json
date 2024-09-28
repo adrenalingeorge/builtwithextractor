@@ -1,0 +1,2238 @@
+{
+    "Results": [
+        {
+            "Result": {
+                "SpendHistory": [
+                    {
+                        "D": 1231220700000,
+                        "S": 0
+                    },
+                    {
+                        "D": 1381556700000,
+                        "S": 126
+                    },
+                    {
+                        "D": 1391924700000,
+                        "S": 659
+                    },
+                    {
+                        "D": 1490420700000,
+                        "S": 163
+                    },
+                    {
+                        "D": 1500788700000,
+                        "S": 270
+                    },
+                    {
+                        "D": 1526708700000,
+                        "S": 264
+                    },
+                    {
+                        "D": 1552628700000,
+                        "S": 730
+                    },
+                    {
+                        "D": 1578548700000,
+                        "S": 1297
+                    },
+                    {
+                        "D": 1583732700000,
+                        "S": 1402
+                    },
+                    {
+                        "D": 1609652700000,
+                        "S": 1196
+                    },
+                    {
+                        "D": 1614836700000,
+                        "S": 1352
+                    },
+                    {
+                        "D": 1620020700000,
+                        "S": 2519
+                    },
+                    {
+                        "D": 1625204700000,
+                        "S": 3146
+                    },
+                    {
+                        "D": 1635572700000,
+                        "S": 2991
+                    },
+                    {
+                        "D": 1692596700000,
+                        "S": 3230
+                    },
+                    {
+                        "D": 1713332700000,
+                        "S": 7896
+                    }
+                ],
+                "IsDB": "True",
+                "Spend": 7896,
+                "Paths": [
+                    {
+                        "Technologies": [
+                            {
+                                "Name": "Google Analytics with Ad Tracking",
+                                "Tag": "analytics",
+                                "FirstDetected": 1380610800000,
+                                "LastDetected": 1567465200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "New Relic",
+                                "Tag": "analytics",
+                                "FirstDetected": 1386284400000,
+                                "LastDetected": 1607986800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "jQuery",
+                                "Name": "jQuery 1.7.2",
+                                "Tag": "javascript",
+                                "FirstDetected": 1357200000000,
+                                "LastDetected": 1520982000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Anchor Systems",
+                                "Tag": "hosting",
+                                "FirstDetected": 1384297200000,
+                                "LastDetected": 1479855600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Microsoft Exchange Online",
+                                "Tag": "mx",
+                                "FirstDetected": 1383865200000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "dotCMS",
+                                "Tag": "cms",
+                                "FirstDetected": 1382050800000,
+                                "LastDetected": 1454475891212,
+                                "IsPremium": "maybe"
+                            },
+                            {
+                                "Name": "Google Remarketing",
+                                "Tag": "ads",
+                                "FirstDetected": 1379286000000,
+                                "LastDetected": 1607986800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Masked Input",
+                                "Tag": "javascript",
+                                "FirstDetected": 1357200000000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Content Delivery Network",
+                                "Tag": "CDN",
+                                "FirstDetected": 1379026800000,
+                                "LastDetected": 1607986800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "GeoTrust SSL",
+                                "Tag": "ssl",
+                                "FirstDetected": 1372806000000,
+                                "LastDetected": 1546124400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "GeoTrust QuickSSL Premium",
+                                "Tag": "ssl",
+                                "FirstDetected": 1372806000000,
+                                "LastDetected": 1431907200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "GeoTrust QuickSSL",
+                                "Tag": "ssl",
+                                "FirstDetected": 1372806000000,
+                                "LastDetected": 1431907200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Google Maps API",
+                                "Tag": "mapping",
+                                "FirstDetected": 1371250800000,
+                                "LastDetected": 1689318000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Visual Website Optimizer",
+                                "Tag": "analytics",
+                                "FirstDetected": 1369922400000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "yes"
+                            },
+                            {
+                                "Name": "Google Maps",
+                                "Tag": "mapping",
+                                "FirstDetected": 1357477200000,
+                                "LastDetected": 1689318000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "GStatic Google Static Content",
+                                "Tag": "cdn",
+                                "FirstDetected": 1357477200000,
+                                "LastDetected": 1519858800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "DoubleClick.Net",
+                                "Tag": "ads",
+                                "FirstDetected": 1355490000000,
+                                "LastDetected": 1727161200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Google Font API",
+                                "Tag": "widgets",
+                                "FirstDetected": 1355490000000,
+                                "LastDetected": 1485385200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "jQuery",
+                                "Tag": "javascript",
+                                "FirstDetected": 1349359200000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "jQuery",
+                                "Name": "jQuery UI",
+                                "Tag": "javascript",
+                                "FirstDetected": 1349359200000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "SWFObject",
+                                "Tag": "javascript",
+                                "FirstDetected": 1349359200000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "jQuery",
+                                "Name": "jQuery Masonry",
+                                "Tag": "javascript",
+                                "FirstDetected": 1349359200000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "jQuery",
+                                "Name": "jQuery Metadata",
+                                "Tag": "javascript",
+                                "FirstDetected": 1349359200000,
+                                "LastDetected": 1520982000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "jQuery",
+                                "Name": "jQuery Validate",
+                                "Tag": "javascript",
+                                "FirstDetected": 1349359200000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "SuperFish Menu",
+                                "Tag": "javascript",
+                                "FirstDetected": 1349359200000,
+                                "LastDetected": 1520982000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "jQuery",
+                                "Name": "jQuery Cycle",
+                                "Tag": "javascript",
+                                "FirstDetected": 1349359200000,
+                                "LastDetected": 1544655600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "jQuery",
+                                "Name": "jQuery prettyPhoto",
+                                "Tag": "javascript",
+                                "FirstDetected": 1349359200000,
+                                "LastDetected": 1582066800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "jQuery",
+                                "Name": "jQuery Mousewheel",
+                                "Tag": "javascript",
+                                "FirstDetected": 1349359200000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "JCarousel",
+                                "Tag": "javascript",
+                                "FirstDetected": 1349359200000,
+                                "LastDetected": 1520982000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "jQuery",
+                                "Name": "jQuery BlockUI",
+                                "Tag": "javascript",
+                                "FirstDetected": 1349359200000,
+                                "LastDetected": 1520982000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Google Adsense",
+                                "Tag": "ads",
+                                "FirstDetected": 1349359200000,
+                                "LastDetected": 1406678400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Google Conversion Tracking",
+                                "Tag": "analytics",
+                                "FirstDetected": 1349359200000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Google JS Api",
+                                "Tag": "javascript",
+                                "FirstDetected": 1349359200000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "CodeIgniter",
+                                "Tag": "framework",
+                                "FirstDetected": 1349359200000,
+                                "LastDetected": 1413331200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Apache",
+                                "Tag": "Web Server",
+                                "FirstDetected": 1349359200000,
+                                "LastDetected": 1607986800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Ubuntu",
+                                "Tag": "Server",
+                                "FirstDetected": 1349359200000,
+                                "LastDetected": 1384297200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Google Webmaster",
+                                "Tag": "Web Master",
+                                "FirstDetected": 1222812000000,
+                                "LastDetected": 1346940000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Google Analytics",
+                                "Tag": "analytics",
+                                "FirstDetected": 1255384800000,
+                                "LastDetected": 1727161200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "IIS",
+                                "Tag": "Web Server",
+                                "FirstDetected": 1320584400000,
+                                "LastDetected": 1697612400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "IIS",
+                                "Name": "IIS 6",
+                                "Tag": "Web Server",
+                                "FirstDetected": 1320584400000,
+                                "LastDetected": 1348668000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "ASP.NET",
+                                "Tag": "framework",
+                                "FirstDetected": 1320584400000,
+                                "LastDetected": 1348668000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "PHP",
+                                "Tag": "framework",
+                                "FirstDetected": 1320584400000,
+                                "LastDetected": 1607986800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "SPF",
+                                "Tag": "mx",
+                                "FirstDetected": 1397084400000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Vocus Communications",
+                                "Tag": "hosting",
+                                "FirstDetected": 1414018800000,
+                                "LastDetected": 1478732400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "MSN/Bing Webmaster",
+                                "Tag": "Web Master",
+                                "FirstDetected": 1414281600000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Font Awesome",
+                                "Tag": "widgets",
+                                "FirstDetected": 1414623600000,
+                                "LastDetected": 1609574400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "BootstrapCDN",
+                                "Tag": "cdn",
+                                "FirstDetected": 1420617600000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Java EE",
+                                "Tag": "framework",
+                                "FirstDetected": 1424905200000,
+                                "LastDetected": 1475622000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Google Tag Manager",
+                                "Tag": "widgets",
+                                "FirstDetected": 1429138800000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Google Analytics",
+                                "Name": "Google Universal Analytics",
+                                "Tag": "analytics",
+                                "FirstDetected": 1429488000000,
+                                "LastDetected": 1721631600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Facebook for Websites",
+                                "Tag": "javascript",
+                                "FirstDetected": 1438729617131,
+                                "LastDetected": 1721631600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Facebook SDK",
+                                "Tag": "javascript",
+                                "FirstDetected": 1438729617131,
+                                "LastDetected": 1721631600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Office 365 Mail",
+                                "Tag": "mx",
+                                "FirstDetected": 1440025200000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Facebook Custom Audiences",
+                                "Tag": "ads",
+                                "FirstDetected": 1443580469360,
+                                "LastDetected": 1721631600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Google Analytics",
+                                "Name": "Google Analytics Classic",
+                                "Tag": "analytics",
+                                "FirstDetected": 1255384800000,
+                                "LastDetected": 1715238000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Facebook Pixel",
+                                "Tag": "analytics",
+                                "FirstDetected": 1443682800000,
+                                "LastDetected": 1721631600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "AdRoll",
+                                "Tag": "ads",
+                                "FirstDetected": 1470265200000,
+                                "LastDetected": 1604304000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "PHP",
+                                "Name": "PHP 7",
+                                "Tag": "framework",
+                                "FirstDetected": 1478646000000,
+                                "LastDetected": 1607986800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Amazon",
+                                "Tag": "hosting",
+                                "FirstDetected": 1478732400000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Amazon Route 53",
+                                "Tag": "ns",
+                                "FirstDetected": 1478732400000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Amazon SES",
+                                "Tag": "mx",
+                                "FirstDetected": 1479855600000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "yes"
+                            },
+                            {
+                                "Name": "DoubleClick Bid Manager",
+                                "Tag": "ads",
+                                "FirstDetected": 1482361200000,
+                                "LastDetected": 1582066800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "SSL by Default",
+                                "Tag": "ssl",
+                                "FirstDetected": 1482361200000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "jQuery",
+                                "Name": "jQuery ScrollTo",
+                                "Tag": "javascript",
+                                "FirstDetected": 1487890800000,
+                                "LastDetected": 1567465200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Jet Interactive",
+                                "Tag": "analytics",
+                                "FirstDetected": 1380610800000,
+                                "LastDetected": 1509490800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Twitter Ads",
+                                "Tag": "ads",
+                                "FirstDetected": 1488236400000,
+                                "LastDetected": 1505170800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "AppNexus",
+                                "Tag": "ads",
+                                "FirstDetected": 1488236400000,
+                                "LastDetected": 1517526000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Openads/OpenX",
+                                "Tag": "ads",
+                                "FirstDetected": 1488236400000,
+                                "LastDetected": 1514329200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Yahoo Small Business",
+                                "Tag": "ads",
+                                "FirstDetected": 1488236400000,
+                                "LastDetected": 1514329200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Rapleaf",
+                                "Tag": "analytics",
+                                "FirstDetected": 1488236400000,
+                                "LastDetected": 1514329200000,
+                                "IsPremium": "yes"
+                            },
+                            {
+                                "Name": "Pubmatic",
+                                "Tag": "ads",
+                                "FirstDetected": 1488236400000,
+                                "LastDetected": 1514329200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Rubicon Project",
+                                "Tag": "ads",
+                                "FirstDetected": 1488236400000,
+                                "LastDetected": 1517526000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Twitter Analytics",
+                                "Tag": "analytics",
+                                "FirstDetected": 1488236400000,
+                                "LastDetected": 1505170800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Index Exchange",
+                                "Tag": "ads",
+                                "FirstDetected": 1488236400000,
+                                "LastDetected": 1514329200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "IponWeb BidSwitch",
+                                "Tag": "ads",
+                                "FirstDetected": 1488236400000,
+                                "LastDetected": 1514329200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon",
+                                "Name": "Amazon Sydney Region",
+                                "Tag": "hosting",
+                                "FirstDetected": 1494630000000,
+                                "LastDetected": 1724396400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "LiveRamp",
+                                "Tag": "analytics",
+                                "FirstDetected": 1499727600000,
+                                "LastDetected": 1514329200000,
+                                "IsPremium": "yes"
+                            },
+                            {
+                                "Name": "Ad Tech Japan AOL",
+                                "Tag": "ads",
+                                "FirstDetected": 1503356400000,
+                                "LastDetected": 1505170800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Amazon Elastic Beanstalk",
+                                "Tag": "hosting",
+                                "FirstDetected": 1503961200000,
+                                "LastDetected": 1603494000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Advertising.com",
+                                "Tag": "ads",
+                                "FirstDetected": 1505170800000,
+                                "LastDetected": 1514329200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Facebook Signal",
+                                "Tag": "analytics",
+                                "FirstDetected": 1512082800000,
+                                "LastDetected": 1721631600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Raven JS",
+                                "Tag": "javascript",
+                                "FirstDetected": 1518217200000,
+                                "LastDetected": 1567465200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Sentry",
+                                "Tag": "javascript",
+                                "FirstDetected": 1518217200000,
+                                "LastDetected": 1607986800000,
+                                "IsPremium": "maybe"
+                            },
+                            {
+                                "Parent": "jQuery",
+                                "Name": "jQuery UI Mouse",
+                                "Tag": "javascript",
+                                "FirstDetected": 1522796400000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "imagesLoaded",
+                                "Tag": "javascript",
+                                "FirstDetected": 1522796400000,
+                                "LastDetected": 1544655600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Hover Intent",
+                                "Tag": "javascript",
+                                "FirstDetected": 1522796400000,
+                                "LastDetected": 1544655600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "DigiCert SSL",
+                                "Tag": "ssl",
+                                "FirstDetected": 1525129200000,
+                                "LastDetected": 1725778800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Facebook Conversion Tracking",
+                                "Tag": "analytics",
+                                "FirstDetected": 1443682800000,
+                                "LastDetected": 1602572400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Careers",
+                                "Tag": "link",
+                                "FirstDetected": 1539558000000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Atlassian Cloud",
+                                "Tag": "cms",
+                                "FirstDetected": 1539730800000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "yes"
+                            },
+                            {
+                                "Name": "English HREF LANG",
+                                "Tag": "language",
+                                "FirstDetected": 1380610800000,
+                                "LastDetected": 1607986800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "CDN JS",
+                                "Tag": "cdn",
+                                "FirstDetected": 1545346800000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "jQuery",
+                                "Name": "jQuery 1.8.2",
+                                "Tag": "javascript",
+                                "FirstDetected": 1545346800000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Sitelinks Search Box",
+                                "Tag": "widgets",
+                                "FirstDetected": 1545346800000,
+                                "LastDetected": 1607986800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Comodo SSL",
+                                "Tag": "ssl",
+                                "FirstDetected": 1547766000000,
+                                "LastDetected": 1571353200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Comodo PremiumSSL Wildcard",
+                                "Tag": "ssl",
+                                "FirstDetected": 1547766000000,
+                                "LastDetected": 1571353200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "UPS",
+                                "Tag": "shipping",
+                                "FirstDetected": 1549234800000,
+                                "LastDetected": 1550358000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Global Site Tag",
+                                "Tag": "analytics",
+                                "FirstDetected": 1553209200000,
+                                "LastDetected": 1721631600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "YouTube IFrame API",
+                                "Tag": "media",
+                                "FirstDetected": 1553209200000,
+                                "LastDetected": 1589842800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "YouTube IFrame Upload",
+                                "Tag": "widgets",
+                                "FirstDetected": 1553209200000,
+                                "LastDetected": 1589842800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Amazon S3 CDN",
+                                "Tag": "cdns",
+                                "FirstDetected": 1553209200000,
+                                "LastDetected": 1571353200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Google Conversion Tracking",
+                                "Name": "Google AdWords Conversion",
+                                "Tag": "analytics",
+                                "FirstDetected": 1560380400000,
+                                "LastDetected": 1727161200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Google Conversion Linker",
+                                "Tag": "analytics",
+                                "FirstDetected": 1560380400000,
+                                "LastDetected": 1727161200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Cloudflare DNS",
+                                "Tag": "ns",
+                                "FirstDetected": 1564182000000,
+                                "LastDetected": 1607382000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "IPv6",
+                                "Tag": "Server",
+                                "FirstDetected": 1564182000000,
+                                "LastDetected": 1689663600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Mimecast",
+                                "Tag": "mx",
+                                "FirstDetected": 1567551600000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "yes"
+                            },
+                            {
+                                "Name": "Viewport Meta",
+                                "Tag": "mobile",
+                                "FirstDetected": 1568070000000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "IPhone / Mobile Compatible",
+                                "Tag": "mobile",
+                                "FirstDetected": 1568070000000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Cloudflare",
+                                "Tag": "cdn",
+                                "FirstDetected": 1572649200000,
+                                "LastDetected": 1607382000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Cloudflare Hosting",
+                                "Tag": "hosting",
+                                "FirstDetected": 1572649200000,
+                                "LastDetected": 1606809600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Sectigo SSL",
+                                "Tag": "ssl",
+                                "FirstDetected": 1572649200000,
+                                "LastDetected": 1607382000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Sectigo SSL",
+                                "Name": "Sectigo Domain SSL",
+                                "Tag": "ssl",
+                                "FirstDetected": 1572649200000,
+                                "LastDetected": 1607382000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Comodo PositiveSSL",
+                                "Tag": "ssl",
+                                "FirstDetected": 1572649200000,
+                                "LastDetected": 1589842800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Freshchat",
+                                "Tag": "widgets",
+                                "FirstDetected": 1573686000000,
+                                "LastDetected": 1604304000000,
+                                "IsPremium": "yes"
+                            },
+                            {
+                                "Name": "COVID-19",
+                                "Tag": "widgets",
+                                "FirstDetected": 1585090800000,
+                                "LastDetected": 1637740800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Socket.IO",
+                                "Tag": "javascript",
+                                "FirstDetected": 1585090800000,
+                                "LastDetected": 1585090800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "JSON 3",
+                                "Tag": "javascript",
+                                "FirstDetected": 1585090800000,
+                                "LastDetected": 1585090800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "CloudFront",
+                                "Tag": "cdn",
+                                "FirstDetected": 1585090800000,
+                                "LastDetected": 1585090800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "core-js",
+                                "Tag": "javascript",
+                                "FirstDetected": 1589238000000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Copyright Year 2019",
+                                "Tag": "copyright",
+                                "FirstDetected": 1589238000000,
+                                "LastDetected": 1607986800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Pound Sterling",
+                                "Tag": "payment",
+                                "FirstDetected": 1590706800000,
+                                "LastDetected": 1682924400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Japanese Yen",
+                                "Tag": "payment",
+                                "FirstDetected": 1590706800000,
+                                "LastDetected": 1597878000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Australian English",
+                                "Tag": "language",
+                                "FirstDetected": 1596754800000,
+                                "LastDetected": 1607986800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Mailgun",
+                                "Tag": "mx",
+                                "FirstDetected": 1602543600000,
+                                "LastDetected": 1632553200000,
+                                "IsPremium": "yes"
+                            },
+                            {
+                                "Name": "Organization Schema",
+                                "Tag": "framework",
+                                "FirstDetected": 1601535600000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "PostalAddress Schema",
+                                "Tag": "framework",
+                                "FirstDetected": 1601535600000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Amazon SSL",
+                                "Tag": "ssl",
+                                "FirstDetected": 1607554800000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Amazon CloudFront",
+                                "Tag": "cdns",
+                                "FirstDetected": 1607846400000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "yes"
+                            },
+                            {
+                                "Name": "Bloodhound Typeahead",
+                                "Tag": "javascript",
+                                "FirstDetected": 1608105600000,
+                                "LastDetected": 1721631600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Vue",
+                                "Tag": "javascript",
+                                "FirstDetected": 1608105600000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Apple Mobile Web Clips Icon",
+                                "Tag": "mobile",
+                                "FirstDetected": 1608019200000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "jQuery",
+                                "Name": "jQuery Unobtrusive Ajax",
+                                "Tag": "javascript",
+                                "FirstDetected": 1608019200000,
+                                "LastDetected": 1694415600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Typeahead.js",
+                                "Tag": "javascript",
+                                "FirstDetected": 1608105600000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Axios",
+                                "Tag": "javascript",
+                                "FirstDetected": 1608105600000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Postal.js",
+                                "Tag": "javascript",
+                                "FirstDetected": 1608105600000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "lodash",
+                                "Tag": "javascript",
+                                "FirstDetected": 1608105600000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Amazon Elastic Load Balancing Sticky Session",
+                                "Tag": "widgets",
+                                "FirstDetected": 1608019200000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Cart Functionality",
+                                "Tag": "shop",
+                                "FirstDetected": 1608019200000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Bootstrap.js",
+                                "Tag": "javascript",
+                                "FirstDetected": 1608364800000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Slick JS",
+                                "Tag": "javascript",
+                                "FirstDetected": 1608364800000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Moment JS",
+                                "Tag": "javascript",
+                                "FirstDetected": 1608364800000,
+                                "LastDetected": 1613721600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "CrazyEgg",
+                                "Tag": "analytics",
+                                "FirstDetected": 1612252800000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "maybe"
+                            },
+                            {
+                                "Name": "Hotjar",
+                                "Tag": "analytics",
+                                "FirstDetected": 1612252800000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "yes"
+                            },
+                            {
+                                "Name": "Day.js",
+                                "Tag": "javascript",
+                                "FirstDetected": 1614758400000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Events Page",
+                                "Tag": "link",
+                                "FirstDetected": 1615071600000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Google Optimize 360",
+                                "Tag": "analytics",
+                                "FirstDetected": 1616713200000,
+                                "LastDetected": 1727161200000,
+                                "IsPremium": "maybe"
+                            },
+                            {
+                                "Name": "iStockPhoto",
+                                "Tag": "widgets",
+                                "FirstDetected": 1618268400000,
+                                "LastDetected": 1619564400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Unsplash",
+                                "Tag": "widgets",
+                                "FirstDetected": 1628665200000,
+                                "LastDetected": 1629874800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Intersection Observer",
+                                "Tag": "javascript",
+                                "FirstDetected": 1632121200000,
+                                "LastDetected": 1727161200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Facebook Domain Verification",
+                                "Tag": "framework",
+                                "FirstDetected": 1636704000000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Kentico Xperience",
+                                "Tag": "cms",
+                                "FirstDetected": 1611302400000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "yes"
+                            },
+                            {
+                                "Parent": "Google Analytics",
+                                "Name": "Google Analytics 4",
+                                "Tag": "analytics",
+                                "FirstDetected": 1643443200000,
+                                "LastDetected": 1721631600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "lazySizes",
+                                "Tag": "javascript",
+                                "FirstDetected": 1643443200000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "libphonenumber",
+                                "Tag": "javascript",
+                                "FirstDetected": 1648018800000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "US Privacy User Signal Mechanism",
+                                "Tag": "widgets",
+                                "FirstDetected": 1660460400000,
+                                "LastDetected": 1727161200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Facebook",
+                                "Tag": "link",
+                                "FirstDetected": 1389168000000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "LinkedIn",
+                                "Tag": "link",
+                                "FirstDetected": 1389168000000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Twitter",
+                                "Tag": "link",
+                                "FirstDetected": 1389168000000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Chicago IL Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1661151600000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Singapore Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1661497200000,
+                                "LastDetected": 1674720000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "prettyPhoto",
+                                "Tag": "javascript",
+                                "FirstDetected": 1357200000000,
+                                "LastDetected": 1451721600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Australian English HREF LANG",
+                                "Tag": "language",
+                                "FirstDetected": 1380610800000,
+                                "LastDetected": 1603522800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "New Zealand English HREF LANG",
+                                "Tag": "language",
+                                "FirstDetected": 1380610800000,
+                                "LastDetected": 1603522800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "selectivizr",
+                                "Tag": "javascript",
+                                "FirstDetected": 1420617600000,
+                                "LastDetected": 1451721600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "jsDelivr",
+                                "Tag": "cdn",
+                                "FirstDetected": 1420617600000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Google Maps",
+                                "Name": "Google Places Library",
+                                "Tag": "mapping",
+                                "FirstDetected": 1543046400000,
+                                "LastDetected": 1543046400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Euro",
+                                "Tag": "payment",
+                                "FirstDetected": 1601535600000,
+                                "LastDetected": 1704614400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Amsterdam Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1661842800000,
+                                "LastDetected": 1712646000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Los Angeles CA Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1662188400000,
+                                "LastDetected": 1725260400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Stockholm Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1662534000000,
+                                "LastDetected": 1708848000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Sydney Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1662706800000,
+                                "LastDetected": 1725433200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Miami FL Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1662706800000,
+                                "LastDetected": 1718262000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Seattle WA Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1662706800000,
+                                "LastDetected": 1725519600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Hong Kong Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1663484400000,
+                                "LastDetected": 1665126000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Instagram",
+                                "Tag": "link",
+                                "FirstDetected": 1412838000000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Helsinki Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1663657200000,
+                                "LastDetected": 1718002800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Ashburn VA Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1664780400000,
+                                "LastDetected": 1723014000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Montréal QC Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1667026800000,
+                                "LastDetected": 1701331200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Mumbai Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1667458800000,
+                                "LastDetected": 1723446000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront New York NY Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1667631600000,
+                                "LastDetected": 1703059200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Paris Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1669708800000,
+                                "LastDetected": 1726124400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Taipei TW Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1669708800000,
+                                "LastDetected": 1714460400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Phoenix AZ Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1670918400000,
+                                "LastDetected": 1707984000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "CrUX Dataset",
+                                "Tag": "widgets",
+                                "FirstDetected": 1672473600000,
+                                "LastDetected": 1726383600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "CrUX Dataset",
+                                "Name": "CrUX Top 1m",
+                                "Tag": "widgets",
+                                "FirstDetected": 1672473600000,
+                                "LastDetected": 1700035200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "DMARC",
+                                "Tag": "mx",
+                                "FirstDetected": 1682406000000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Dmarcian",
+                                "Tag": "mx",
+                                "FirstDetected": 1682406000000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "yes"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Frankfurt Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1682838000000,
+                                "LastDetected": 1707120000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Azure Active Directory",
+                                "Tag": "widgets",
+                                "FirstDetected": 1682924400000,
+                                "LastDetected": 1682924400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Manila Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1687417200000,
+                                "LastDetected": 1707552000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Melbourne Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1689404400000,
+                                "LastDetected": 1710226800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Cloudflare Radar",
+                                "Tag": "widgets",
+                                "FirstDetected": 1690268400000,
+                                "LastDetected": 1726470000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Marseille Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1691132400000,
+                                "LastDetected": 1724742000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "IIS",
+                                "Name": "IIS 10",
+                                "Tag": "Web Server",
+                                "FirstDetected": 1691478000000,
+                                "LastDetected": 1697612400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "DocuSign",
+                                "Tag": "widgets",
+                                "FirstDetected": 1691478000000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "jQuery",
+                                "Name": "jQuery 3.4.1",
+                                "Tag": "javascript",
+                                "FirstDetected": 1692255600000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "HSTS",
+                                "Name": "HSTS IncludeSubdomains PreLoad",
+                                "Tag": "ssl",
+                                "FirstDetected": 1692687600000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "HSTS",
+                                "Tag": "ssl",
+                                "FirstDetected": 1692687600000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Denver CO Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1696057200000,
+                                "LastDetected": 1724223600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Amazon S3",
+                                "Tag": "cdn",
+                                "FirstDetected": 1698390000000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Australian Corporate Tax Transparency",
+                                "Tag": "link",
+                                "FirstDetected": 1699776000000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "yes"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront San Francisco CA Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1700208000000,
+                                "LastDetected": 1721631600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "CrUX Dataset",
+                                "Name": "CrUX Top 5m",
+                                "Tag": "widgets",
+                                "FirstDetected": 1702627200000,
+                                "LastDetected": 1726383600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Have I Been Pwned",
+                                "Tag": "widgets",
+                                "FirstDetected": 1705737600000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront London Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1706256000000,
+                                "LastDetected": 1718780400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Vancouver BC Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1706947200000,
+                                "LastDetected": 1711350000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Edge Network",
+                                "Tag": "hosting",
+                                "FirstDetected": 1710226800000,
+                                "LastDetected": 1710399600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "YouTube Link",
+                                "Tag": "link",
+                                "FirstDetected": 1713855600000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Madrid Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1714806000000,
+                                "LastDetected": 1725778800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "GitHub",
+                                "Tag": "link",
+                                "FirstDetected": 1715238000000,
+                                "LastDetected": 1715238000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Dallas Fort Worth Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1715670000000,
+                                "LastDetected": 1726902000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Milan Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1715670000000,
+                                "LastDetected": 1721199600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Dubai Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1719126000000,
+                                "LastDetected": 1726902000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Atlanta GA Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1720076400000,
+                                "LastDetected": 1727161200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Toronto ON Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1720335600000,
+                                "LastDetected": 1720335600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Tel Aviv Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1720940400000,
+                                "LastDetected": 1722754800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Amazon CloudFront",
+                                "Name": "AWS Cloudfront Manama Edge",
+                                "Tag": "cdns",
+                                "FirstDetected": 1723273200000,
+                                "LastDetected": 1723273200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Perl",
+                                "Tag": "framework",
+                                "FirstDetected": 1725692400000,
+                                "LastDetected": 1725692400000,
+                                "IsPremium": "no"
+                            }
+                        ],
+                        "FirstIndexed": 1222812000000,
+                        "LastIndexed": 1727334000000,
+                        "Domain": "kss.com.au",
+                        "Url": "",
+                        "SubDomain": ""
+                    },
+                    {
+                        "Technologies": [
+                            {
+                                "Name": "Facebook Like Button",
+                                "Tag": "widgets",
+                                "FirstDetected": 1383690638863,
+                                "LastDetected": 1383690638863,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Twitter Tweet Button",
+                                "Tag": "widgets",
+                                "FirstDetected": 1383690638863,
+                                "LastDetected": 1383690638863,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Twitter Platform",
+                                "Tag": "javascript",
+                                "FirstDetected": 1383690638863,
+                                "LastDetected": 1404172800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "ShareThis",
+                                "Tag": "widgets",
+                                "FirstDetected": 1391565886701,
+                                "LastDetected": 1470870000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "W3 Total Cache",
+                                "Tag": "widgets",
+                                "FirstDetected": 1461798000000,
+                                "LastDetected": 1477522800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "comScore",
+                                "Tag": "analytics",
+                                "FirstDetected": 1461970800000,
+                                "LastDetected": 1470870000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "eXelate",
+                                "Tag": "ads",
+                                "FirstDetected": 1467241200000,
+                                "LastDetected": 1467327600000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Neustar AdAdvisor",
+                                "Tag": "ads",
+                                "FirstDetected": 1467241200000,
+                                "LastDetected": 1470870000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Rocket Fuel",
+                                "Tag": "ads",
+                                "FirstDetected": 1467241200000,
+                                "LastDetected": 1470870000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Dstillery",
+                                "Tag": "ads",
+                                "FirstDetected": 1467241200000,
+                                "LastDetected": 1470870000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Drawbridge",
+                                "Tag": "ads",
+                                "FirstDetected": 1467241200000,
+                                "LastDetected": 1470870000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Lotame Crowd Control",
+                                "Tag": "analytics",
+                                "FirstDetected": 1468450800000,
+                                "LastDetected": 1470870000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "The Trade Desk",
+                                "Tag": "ads",
+                                "FirstDetected": 1468450800000,
+                                "LastDetected": 1469746800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Aggregate Knowledge",
+                                "Tag": "ads",
+                                "FirstDetected": 1468450800000,
+                                "LastDetected": 1470870000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "DemDex",
+                                "Tag": "ads",
+                                "FirstDetected": 1468450800000,
+                                "LastDetected": 1469746800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Facebook Exchange FBX",
+                                "Tag": "ads",
+                                "FirstDetected": 1469746800000,
+                                "LastDetected": 1481842800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Eyeota",
+                                "Tag": "ads",
+                                "FirstDetected": 1469746800000,
+                                "LastDetected": 1470870000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "jQuery",
+                                "Name": "jQuery Easing",
+                                "Tag": "javascript",
+                                "FirstDetected": 1473721200000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Yoast Plugins",
+                                "Tag": "widgets",
+                                "FirstDetected": 1473721200000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Yoast Plugins",
+                                "Name": "Yoast WordPress SEO Plugin",
+                                "Tag": "widgets",
+                                "FirstDetected": 1473721200000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "RSS",
+                                "Tag": "feeds",
+                                "FirstDetected": 1473721200000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Wordpress Plugins",
+                                "Tag": "widgets",
+                                "FirstDetected": 1473721200000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "html5shiv",
+                                "Tag": "javascript",
+                                "FirstDetected": 1473721200000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "WordPress",
+                                "Tag": "cms",
+                                "FirstDetected": 1473721200000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Really Simple Discovery",
+                                "Tag": "feeds",
+                                "FirstDetected": 1480978800000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Live Writer Support",
+                                "Tag": "feeds",
+                                "FirstDetected": 1480978800000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Facebook Sharer",
+                                "Tag": "widgets",
+                                "FirstDetected": 1561590000000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Pinterest",
+                                "Tag": "widgets",
+                                "FirstDetected": 1561590000000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "reCAPTCHA",
+                                "Tag": "widgets",
+                                "FirstDetected": 1561590000000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "WOW",
+                                "Tag": "javascript",
+                                "FirstDetected": 1561590000000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Isotope",
+                                "Tag": "javascript",
+                                "FirstDetected": 1589238000000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "es6 promise",
+                                "Tag": "javascript",
+                                "FirstDetected": 1589238000000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Cloudflare JS",
+                                "Tag": "cdn",
+                                "FirstDetected": 1599721200000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Gravatar Profiles",
+                                "Tag": "widgets",
+                                "FirstDetected": 1606118400000,
+                                "LastDetected": 1607846400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Pexels",
+                                "Tag": "widgets",
+                                "FirstDetected": 1651820400000,
+                                "LastDetected": 1652770800000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "GeoCoordinates Schema",
+                                "Tag": "framework",
+                                "FirstDetected": 1682060400000,
+                                "LastDetected": 1689318000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "LocalBusiness Schema",
+                                "Tag": "framework",
+                                "FirstDetected": 1682060400000,
+                                "LastDetected": 1689318000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "OpeningHoursSpecification Schema",
+                                "Tag": "framework",
+                                "FirstDetected": 1682060400000,
+                                "LastDetected": 1689318000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "AggregateRating Schema",
+                                "Tag": "framework",
+                                "FirstDetected": 1685862000000,
+                                "LastDetected": 1689318000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Person Schema",
+                                "Tag": "framework",
+                                "FirstDetected": 1685862000000,
+                                "LastDetected": 1689318000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Rating Schema",
+                                "Tag": "framework",
+                                "FirstDetected": 1685862000000,
+                                "LastDetected": 1689318000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Review Schema",
+                                "Tag": "framework",
+                                "FirstDetected": 1685862000000,
+                                "LastDetected": 1689318000000,
+                                "IsPremium": "no"
+                            }
+                        ],
+                        "FirstIndexed": 1383690638863,
+                        "LastIndexed": 1689318000000,
+                        "Domain": "kss.com.au",
+                        "Url": "dd",
+                        "SubDomain": ""
+                    },
+                    {
+                        "Technologies": [
+                            {
+                                "Name": "jQuery CDN",
+                                "Tag": "cdn",
+                                "FirstDetected": 1429700086853,
+                                "LastDetected": 1538694000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "jQuery",
+                                "Name": "jQuery Mobile",
+                                "Tag": "javascript",
+                                "FirstDetected": 1429700086853,
+                                "LastDetected": 1538694000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Microsoft Ajax Content Delivery Network",
+                                "Tag": "cdn",
+                                "FirstDetected": 1429700086853,
+                                "LastDetected": 1567465200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "YouTube",
+                                "Tag": "media",
+                                "FirstDetected": 1429700086853,
+                                "LastDetected": 1498604400000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Mobile Non Scaleable Content",
+                                "Tag": "mobile",
+                                "FirstDetected": 1482274800000,
+                                "LastDetected": 1538694000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Typekit",
+                                "Tag": "widgets",
+                                "FirstDetected": 1482274800000,
+                                "LastDetected": 1567465200000,
+                                "IsPremium": "no"
+                            }
+                        ],
+                        "FirstIndexed": 1429700086853,
+                        "LastIndexed": 1567465200000,
+                        "Domain": "kss.com.au",
+                        "Url": "m",
+                        "SubDomain": ""
+                    },
+                    {
+                        "Technologies": [
+                            {
+                                "Name": "Domain Not Resolving",
+                                "Tag": "hosting",
+                                "FirstDetected": 1724742000000,
+                                "LastDetected": 1726902000000,
+                                "IsPremium": "no"
+                            }
+                        ],
+                        "FirstIndexed": 1724742000000,
+                        "LastIndexed": 1726902000000,
+                        "Domain": "kss.com.au",
+                        "Url": "",
+                        "SubDomain": "analytics"
+                    },
+                    {
+                        "Technologies": [
+                            {
+                                "Name": "Domain Not Resolving",
+                                "Tag": "hosting",
+                                "FirstDetected": 1618902000000,
+                                "LastDetected": 1715670000000,
+                                "IsPremium": "no"
+                            }
+                        ],
+                        "FirstIndexed": 1618902000000,
+                        "LastIndexed": 1715670000000,
+                        "Domain": "kss.com.au",
+                        "Url": "",
+                        "SubDomain": "api"
+                    },
+                    {
+                        "Technologies": [
+                            {
+                                "Name": "Domain Not Resolving",
+                                "Tag": "hosting",
+                                "FirstDetected": 1633244400000,
+                                "LastDetected": 1633244400000,
+                                "IsPremium": "no"
+                            }
+                        ],
+                        "FirstIndexed": 1633244400000,
+                        "LastIndexed": 1633244400000,
+                        "Domain": "kss.com.au",
+                        "Url": "",
+                        "SubDomain": "crm"
+                    },
+                    {
+                        "Technologies": [
+                            {
+                                "Parent": "Amazon",
+                                "Name": "Amazon Virginia Region",
+                                "Tag": "hosting",
+                                "FirstDetected": 1597734000000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "FreshService",
+                                "Tag": "mx",
+                                "FirstDetected": 1633244400000,
+                                "LastDetected": 1707984000000,
+                                "IsPremium": "maybe"
+                            },
+                            {
+                                "Name": "DNSSEC",
+                                "Tag": "ns",
+                                "FirstDetected": 1727334000000,
+                                "LastDetected": 1727334000000,
+                                "IsPremium": "no"
+                            }
+                        ],
+                        "FirstIndexed": 1597734000000,
+                        "LastIndexed": 1727334000000,
+                        "Domain": "kss.com.au",
+                        "Url": "",
+                        "SubDomain": "houston"
+                    },
+                    {
+                        "Technologies": [
+                            {
+                                "Parent": "jQuery",
+                                "Name": "jQuery 1.9.1",
+                                "Tag": "javascript",
+                                "FirstDetected": 1394409954078,
+                                "LastDetected": 1567465200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Parent": "Typekit",
+                                "Name": "Typekit Async",
+                                "Tag": "widgets",
+                                "FirstDetected": 1507244400000,
+                                "LastDetected": 1567465200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "RawGit",
+                                "Tag": "cdn",
+                                "FirstDetected": 1531436400000,
+                                "LastDetected": 1567465200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Modernizr",
+                                "Tag": "javascript",
+                                "FirstDetected": 1557529200000,
+                                "LastDetected": 1557529200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "yepnope",
+                                "Tag": "javascript",
+                                "FirstDetected": 1557529200000,
+                                "LastDetected": 1557529200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "html5shiv",
+                                "Tag": "javascript",
+                                "FirstDetected": 1557529200000,
+                                "LastDetected": 1557529200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Classie",
+                                "Tag": "javascript",
+                                "FirstDetected": 1557529200000,
+                                "LastDetected": 1557529200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Copyright Year 2018",
+                                "Tag": "copyright",
+                                "FirstDetected": 1557529200000,
+                                "LastDetected": 1557529200000,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Domain Not Resolving",
+                                "Tag": "hosting",
+                                "FirstDetected": 1618297200000,
+                                "LastDetected": 1626073200000,
+                                "IsPremium": "no"
+                            }
+                        ],
+                        "FirstIndexed": 1394409954078,
+                        "LastIndexed": 1626073200000,
+                        "Domain": "kss.com.au",
+                        "Url": "",
+                        "SubDomain": "m"
+                    },
+                    {
+                        "Technologies": [
+                            {
+                                "Name": "nginx",
+                                "Tag": "Web Server",
+                                "FirstDetected": 1713855600000,
+                                "LastDetected": 1725778800000,
+                                "IsPremium": "no"
+                            }
+                        ],
+                        "FirstIndexed": 1713855600000,
+                        "LastIndexed": 1725778800000,
+                        "Domain": "kss.com.au",
+                        "Url": "",
+                        "SubDomain": "payments"
+                    }
+                ]
+            },
+            "Meta": {
+                "Majestic": 0,
+                "Umbrella": 0,
+                "Vertical": "",
+                "Social": null,
+                "CompanyName": null,
+                "Telephones": null,
+                "Emails": [],
+                "City": null,
+                "State": null,
+                "Postcode": null,
+                "Country": "AU",
+                "Names": null,
+                "ARank": 4153750,
+                "QRank": 648768
+            },
+            "Attributes": {
+                "Employees": 0,
+                "MJRank": 0,
+                "MJTLDRank": 0,
+                "RefSN": 0,
+                "RefIP": 0,
+                "Followers": 0,
+                "Sitemap": 0,
+                "GTMTags": 0,
+                "QubitTags": 0,
+                "TealiumTags": 0,
+                "AdobeTags": 0,
+                "CDimensions": 0,
+                "CGoals": 0,
+                "CMetrics": 0,
+                "ProductCount": 0
+            },
+            "FirstIndexed": 1222812000000,
+            "LastIndexed": 1727334000000,
+            "Lookup": "kss.com.au",
+            "SalesRevenue": 100000000
+        }
+    ],
+    "Errors": [],
+    "Trust": null
+}
