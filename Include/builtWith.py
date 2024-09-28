@@ -1,5 +1,4 @@
 import requests
-import json
 import os
 import dotenv
 
@@ -9,7 +8,7 @@ class BuiltWithAPI:
     def __init__(self):
         pass
 
-    def fetch_data_from_api(url):
+    def fetch_data_from_api(self, url):
         bw_url = "https://api.builtwith.com/v21/api.json"
         LOOKUP = f"LOOKUP={url}"
         KEY = f"KEY={os.environ.get('BUILTWITH_API_KEY')}"
@@ -35,5 +34,3 @@ class BuiltWithAPI:
             return data
         else:
             response.raise_for_status()
-
-
