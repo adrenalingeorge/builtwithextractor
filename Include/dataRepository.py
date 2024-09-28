@@ -18,6 +18,7 @@ class DataRepository:
 
     def get_data(self, url):
         data = self.collection.find_one({"url": url}, sort=[('timestamp', -1)])
+        print("DataRepository.get_data called")
         return data
 
     def save_data(self, data):
