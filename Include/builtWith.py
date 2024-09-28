@@ -1,72 +1,46 @@
 import requests
 import json
 import os
-import datetime
+from datetime import datetime
+from dataRepository import DataRepository
 
-
-
-class BuiltWithAPI: 
+class BuiltWithAPI:
     def __init__(self):
-        pass
+        self.data_repository = DataRepository('builtwith_db', 'responses')
 
-    # get data from Builtwith API
-    def get_data(url, test_file):
+    def fetch_data_from_api(self, url):
+        bw_url = "https://api.builtwith.com/v21/api.json"
+        LOOKUP = f"LOOKUP={url}"
+        KEY = os.environ.get('BUILTWITH_API_KEY')
+        NOMETA = "NOMETA=no"
+        NOATTR = "NOATTR=no"
+        NOLIVE = "NOLIVE=yes"
+        HIDETEXT = "HIDETEXT=yes"
+        HIDEDL = "HIDEDL=yes"
+        NOPII = "NOPII=yes"
+        TRUSTED = "TRUSTED=yes"
+        
+        querystring = f"?{LOOKUP}&{KEY}&{NOMETA}&{NOATTR}&{NOLIVE}&{HIDETEXT}&{HIDEDL}&{NOPII}&{TRUSTED}"
+        query_url = bw_url + querystring
+        
+        response = requests.get(query_url)
+        if response.status_code == 200:
+            data = response.json()
+            data['timestamp'] = datetime.now()
+            data['url'] = url
+            return data
+        else:
+            response.raise_for_status()
+
+    def get_data(self, url, test_file=None):
         CONTEXT = os.environ.get('CONTEXT')
-        if CONTEXT == "test":
+        if CONTEXT == "test" and test_file:
             with open(test_file, 'r') as f:
                 response = json.loads(f.read()) 	
             return response
         else:
-            bw_url = "https://api.builtwith.com/v21/api.json"
-            
-            LOOKUP = f"LOOKUP={url}"
-            # get the api key from the environment variables
-            KEY = os.environ.get('BUILTWITH_API_KEY')
-            # No meta data (like address, names etc..) will be returned. Improves performance.
-            NOMETA = "NOMETA=no"
-            NOATTR = "NOATTR=no"
-            NOLIVE = "NOLIVE=yes"
-            HIDETEXT = "HIDETEXT=yes"
-            HIDEDL = "HIDEDL=yes"
-            NOPII = "NOPII=yes"
-            TRUSTED = "TRUSTED=yes"
-            
-            querystring = f"?{LOOKUP}&{KEY}&{NOMETA}&{NOATTR}&{NOLIVE}&{HIDETEXT}&{HIDEDL}&{NOPII}&{TRUSTED}"
-            
-            query_url = bw_url + querystring
-
-            response = requests.request("GET", query_url)
-            response = json.loads(response.text)
-            # write repsonse to a file
-            try:
-                with open("testing_response.json", 'w') as f:
-                    f.write(json.dumps(response))
-                print("response written to file")
-            except:
-                print("failed to write response to file")
-            return response
-        
-
-    def get_cms(response):
-        most_recent_last_detected = None
-        cms_list = []
-
-        for result in response["Results"]:
-            for path in result["Result"]["Paths"]:
-                for technology in path["Technologies"]:
-                    if technology["Tag"] == "cms":
-                        current_last_detected = datetime.datetime.fromtimestamp(technology["LastDetected"] / 1000)
-                        if most_recent_last_detected is None or current_last_detected > most_recent_last_detected:
-                            most_recent_last_detected = current_last_detected
-                            cms_list = [technology["Name"]]
-                        elif current_last_detected == most_recent_last_detected:
-                            cms_list.append(technology["Name"])
-
-        if cms_list:
-            print(f"Most recent last detected date: {most_recent_last_detected}")
-            for cms in cms_list:
-                print(f"CMS: {cms}")
-        else:
-            print("No CMS available")
-
-        return cms_list
+            data = self.data_repository.get_data(url)
+            if data is None or self.data_repository.is_data_old(data):
+                data = self.fetch_data_from_api(url)
+                self.data_repository.save_data(data)
+            return data

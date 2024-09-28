@@ -1,27 +1,23 @@
 import Include.builtWith as BuiltWithAPI
 import Include.writeCSV as writeCSV
 
-url = "https://www.kss.com.au/"
-test_file = "hotelscombined.json"
 
-response = builtWith.BuiltWithAPI.get_data(url, test_file)
-cms_list = builtWith.BuiltWithAPI.get_cms(response)
+# write a function to initialise the application
+def init():
+    url = "https://www.kss.com.au/"
+    test_file = "hotelscombined.json"
 
-# for cms in cms_list:
-#     print(cms)
+    response = BuiltWithAPI.BuiltWithAPI.get_data(url, test_file)
+    cms_list = BuiltWithAPI.BuiltWithAPI.get_cms(response)
+
+    writeCSV.WriteCSV(cms_list)
 
 
-# print(response["Results"][0]["Result"]["Paths"][0]["Technologies"][0]["Tag"])
 
-# technologies = response["Results"][0]["Result"]["Paths"][0]["Technologies"]
+# url = "https://www.kss.com.au/"
+# test_file = "hotelscombined.json"
 
-# for tag in technologies:
-#     if tag["Tag"] == "cms":
-#         print(tag["Name"])
-#         break
-    
+# response = builtWith.BuiltWithAPI.get_data(url, test_file)
+# cms_list = builtWith.BuiltWithAPI.get_cms(response)
 
-# cms = BuiltWithAPI.get_cms(response)
-# print(cms)
-    
-#to do => store the data to a database. 
+init()
