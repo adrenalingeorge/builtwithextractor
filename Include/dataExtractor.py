@@ -1,15 +1,11 @@
 import json
+import os
 import csv
 from datetime import datetime, timezone
 
 class TechnologiesExtractor:
-    def __init__(self, file_path):
-        self.file_path = file_path
-        self.data = self.load_json()
-
-    def load_json(self):
-        with open(self.file_path, 'r') as file:
-            return json.load(file)
+    def __init__(self, data):
+        self.data = data
 
     def extract_technologies(self):
         technologies = []
@@ -30,27 +26,29 @@ class TechnologiesExtractor:
 
     def save_to_csv(self, output_file):
         technologies = self.extract_technologies()
-        with open(output_file, 'w', newline='') as csvfile:
-            fieldnames = ["Domain", "Name", "Tag", "FirstDetected", "LastDetected"]
-            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        file_exists = os.path.isfile(output_file)
+        
+        try:
+            with open(output_file, 'a', newline='') as csvfile:
+                fieldnames = ["Domain", "Name", "Tag", "FirstDetected", "LastDetected"]
+                writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
-            writer.writeheader()
-            for tech in technologies:
-                domain = tech.get('Domain', 'N/A')
-                name = tech.get('Name', 'N/A')
-                tag = tech.get('Tag', 'N/A')
-                first_detected = self.format_date(tech.get('FirstDetected'))
-                last_detected = self.format_date(tech.get('LastDetected'))
-                writer.writerow({
-                    "Domain": domain,
-                    "Name": name,
-                    "Tag": tag,
-                    "FirstDetected": first_detected,
-                    "LastDetected": last_detected
-                })
-
-# Usage
-file_path = './kss.com.au.json'
-output_file = './technologies.csv'
-extractor = TechnologiesExtractor(file_path)
-extractor.save_to_csv(output_file)
+                if not file_exists or os.stat(output_file).st_size == 0:
+                    writer.writeheader()
+                
+                for tech in technologies:
+                    domain = tech.get('Domain', 'N/A')
+                    name = tech.get('Name', 'N/A')
+                    tag = tech.get('Tag', 'N/A')
+                    first_detected = self.format_date(tech.get('FirstDetected'))
+                    last_detected = self.format_date(tech.get('LastDetected'))
+                    writer.writerow({
+                        "Domain": domain,
+                        "Name": name,
+                        "Tag": tag,
+                        "FirstDetected": first_detected,
+                        "LastDetected": last_detected
+                    })
+            print(f"Technologies saved to {output_file} successfully")    
+        except Exception as e:
+            print(f"An error occurred while writing rows to csv: {e}")
