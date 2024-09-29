@@ -1,8 +1,7 @@
 import unittest
-from unittest.mock import patch, mock_open, MagicMock
+from unittest.mock import patch
 import os
-import csv
-from datetime import datetime, timezone
+import tempfile
 from Include.dataExtractor import TechnologiesExtractor
 
 class TestTechnologiesExtractor(unittest.TestCase):
@@ -43,23 +42,30 @@ class TestTechnologiesExtractor(unittest.TestCase):
         formatted_date = self.extractor.format_date(None)
         self.assertEqual(formatted_date, 'N/A')
 
-    @patch('builtins.open', new_callable=mock_open)
     @patch('os.path.isfile')
     @patch('os.stat')
-    def test_save_to_csv(self, mock_stat, mock_isfile, mock_open):
+    def test_save_to_csv(self, mock_stat, mock_isfile):
         mock_isfile.return_value = False
         mock_stat.return_value.st_size = 0
 
-        self.extractor.save_to_csv('output.csv')
+        with tempfile.NamedTemporaryFile(delete=False) as temp_file:
+            temp_file_name = temp_file.name
 
-        mock_open.assert_called_once_with('output.csv', 'a', newline='')
-        handle = mock_open()
-        handle.write.assert_called()  # Ensure write was called
+        try:
+            self.extractor.save_to_csv(temp_file_name)
 
-        # Check if the header and rows were written correctly
-        handle.write.assert_any_call('Domain,Name,Tag,FirstDetected,LastDetected\r\n')
-        handle.write.assert_any_call('example.com,Tech1,Tag1,1609459200000,1612137600000\r\n')
-        handle.write.assert_any_call('example.com,Tech2,Tag2,1609459200000,1612137600000\r\n')
+            with open(temp_file_name, 'r') as file:
+                content = file.readlines()
+
+            # Normalize newlines for platform independence
+            content = [line.strip() for line in content]
+
+            # Ensure the header and rows were written correctly
+            self.assertEqual(content[0], 'Domain,Name,Tag,FirstDetected,LastDetected')
+            self.assertEqual(content[1], 'example.com,Tech1,Tag1,01/01/2021,01/02/2021')
+            self.assertEqual(content[2], 'example.com,Tech2,Tag2,01/01/2021,01/02/2021')
+        finally:
+            os.remove(temp_file_name)
 
 if __name__ == '__main__':
     unittest.main()
